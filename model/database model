@@ -1,0 +1,31 @@
+create database facebook;
+
+create table facebook(
+	id int(4) primary key auto_increment,
+	firstname varchar(30) default null,
+	lastname varchar(30) default null,
+	email_mobile varchar(30) default null,
+	password varchar(30) default null,
+	birthday varchar(30) default null,
+	gender varchar(30) default null
+);
+
+create table fb_img(
+	id int(11) primary key auto_increment,
+	user_id int(11) default null,
+	dp_save_loc varchar(100) default null
+);
+
+create table fb_img_cover(
+	id int(11) primary key auto_increment,
+	user_id int(11) default null,
+	cover_save_loc varchar(100) default null
+);
+
+create table fb_loginhistory(
+	loginId int(11) primary key auto_increment,
+	loginStatus varchar(10) default null,
+	userId int(11) default null,
+	loginDate timestamp not null default current_timestamp
+);
+

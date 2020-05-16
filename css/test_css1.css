@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+}
+.box-header{
+	position: relative;
+	width: 100%;
+	height: 90px;
+	background: #3b5998;
+	border-bottom: 1px solid #133783;
+	color: white;
+	border:1px solid #133783;
+	box-shadow: 0 2px 8px 0 #133783;
+}
+.box-header-content{
+	width: 992px;
+	margin: 0 auto;
+	padding-top: 12px;
+}
+.logo-facebook{
+	float: left;
+}
+.logo-facebook h1{
+	margin-top: 12px;
+}
+.form-login{
+	float: right;
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.table-row-login{
+	
+}
+.text-login .text-email-login , .text-pass-login{
+	background: white;
+	outline: none;
+	padding: 3px 3px 4px 3px;
+	font-size: 12px;
+}
+.form-login table tr td{
+	padding: 0 0 0 14px; /*mao ni sya ang spacing sa box sa login form table*/
+}
+.text-login .text-btn-login{
+	background:#2980b9;
+	border: 1px solid #133783;
+	padding: 3px 5px 3px 5px;
+	color: white;
+	font-weight: bold;
+}
+.text-login .text-btn-login:hover{
+	background: #133783;
+}
+.forgotPassword a{
+	text-decoration: none;
+	color: rgb(156, 180, 216);
+}
+.forgotPassword:hover{
+	text-decoration:underline;
+	/*end sa content header style*/
+}
+.box-container{
+	padding: 20px 0 20px 0;
+	background: rgb(233, 235, 238);
+}
+.box-content{
+	/*width: 992px; parehas og width sa header*/
+	width: 1020px;
+	height: 580px;
+	margin: 0 auto;
+}
+.recent-login-section{
+	float: left;
+	width: 530px;
+	/*background: #3b5998;*/
+}
+.sign-up-section{
+	float: right;
+	width: 430px;
+
+	/*background: #3b5998;*/
+}
+.sign-up-section h1 ,.recent-login-section h1{ font-family: sans-serif; font-size: 36px;}
+.sign-up-section h3 ,.recent-login-section h3{ font-size: 19px; margin: 5px 0 20px 0; color:#34495e;}
+.row-1 , .row-2, .row-3, .row-5, .row-6{
+	padding: 4px 0 4px 0;
+}
+.row-1 input[type="text"]{
+	font-size:20px;
+	color:#1c1e21;
+	position: relative;
+	background: white;
+	outline: none;
+	padding: 5px 5px;
+	border: 1px solid #bdc3c7;
+	border-radius: 5px;
+	width: 174px;
+	/*width: 191px;*/  
+}
+.row-2 input[type="text"], .row-3 input[type="password"]{
+	font-size:20px;
+	position: relative;
+	background: white;
+	outline: none;
+	padding: 5px 5px;
+	border: 1px solid #bdc3c7;
+	border-radius: 5px;
+	width: 364px;
+	/*width: 399px;*/  
+}
+.row-4{
+	text-align: left;
+}
+.row-4 select{
+	border-radius: 24px;
+	padding: 5px;
+	width: 80px;
+	outline: none;
+}
+.row-5{ text-align: left; } .row-5 .gender-label{ padding-right: 20px; }
+.row-5 input[type="radio"]{
+	 height: 20px;
+     width: 20px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
+.gender-label{
+	font-size: 20px;
+}
+#genderOpt{
+	font-size:20px;
+	position: relative;
+	background: white;outline: none;padding: 5px 5px;border: 1px solid #bdc3c7;border-radius: 5px;
+	width: 399px;
+	margin-top: 10px; 
+}
+.row-6{
+	text-align: left;
+}
+.signup_btn{
+	text-align:center;border: 0;       /* walaon nako border sa input box*/
+	border: 2px solid #2ecc71;  
+	padding: 5px 50px;
+	outline:none;color: white;
+	border-radius: 24px;   
+	cursor: pointer;background: #27ae60;
+	font-size: 20px;font-weight: bold;
+}
+.signup_btn:hover{
+	background: #2ecc71;
+}
+.Birthday h4,.Gender h4{
+	text-align: left;
+	margin: 10px 0 10px 0;
+	font-size: 19px; margin: 20px 0 5px 0; color:#34495e;
+}
+.policy{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.policy a{
+	text-decoration: none;
+}
+.policy a:hover{
+	text-decoration: underline;
+}
+#error{
+	color:red;
+}
