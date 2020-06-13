@@ -1,4 +1,4 @@
-<?php
+<?php 
 	//signup area 
 	$Firstname = $Lastname = $mobilenumber_email = $newpassword = $month = $days = $year = '';
 	$err_empty_fn = $err_empty_ln = $err_empty_mn_email = $err_empty_pw = '';
